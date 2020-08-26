@@ -1,0 +1,69 @@
+form {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ li {
+     margin-bottom: 2%;
+     background-color: #F2F2F2;
+     border-radius: 0.5rem;
+     text-align: center;
+     padding: 1rem;
+     position: relative;
+ }
+
+ span {
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ button.btn.top {
+     margin-bottom: 10%;
+ }
+
+ div.trashable {
+     padding: 3rem;
+ }
+
+ .fa-check {
+     color: black;
+ }
+ 
+ a {
+     color: #000;
+ }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+button.done, button.delete {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.list-group.closed {
+    display: none;
+}
+
+#closedlabel {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#addTask {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#submit {
+    border: 1px solid black;
+}
+
